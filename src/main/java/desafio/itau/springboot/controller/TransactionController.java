@@ -36,4 +36,10 @@ public class TransactionController {
         return ResponseEntity.ok().build();
     }
 
+//    @DeleteMapping
+//    public ResponseEntity<Void> clearTransaction() {
+//        transactionService.clearTransactions();
+//        return ResponseEntity.ok().build();
+//    }
+
 }
